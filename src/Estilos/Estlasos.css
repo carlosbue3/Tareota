@@ -1,12 +1,9 @@
 .parent {
-    background-color: rgb(194, 194, 194);
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: 1fr;
-   gap: 2rem;
-   
-   
-   
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 3; }
@@ -15,19 +12,5 @@
     .div4 { grid-area: 1 / 5 / 2 / 6; }
     .div5 { grid-area: 1 / 6 / 2 / 7; }
     .div6 { grid-area: 1 / 7 / 2 / 8; }
-    .div7 { grid-area: 1 / 8 / 2 / 10; 
-        text-align: center;}  
-    .b1{
-margin-top: 15px;
-height: 2rem;
-
-    }
-    .b2
-    {margin-top: 15px;
-        height: 2rem;}
-    .iman{
-margin-top: 7px;
-margin-left: 5px;
-        height: 3rem;
-        
-    }
+    .div7 { grid-area: 1 / 8 / 2 / 10;}
+      
