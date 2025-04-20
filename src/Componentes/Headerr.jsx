@@ -7,6 +7,10 @@ function Headerr() {
         <h1>We Care About</h1>
         <h1>Your Healt</h1>
         <h6>Mucho texto afefffqfqfqfqfqftgrgrgr</h6>
+        <h6>Mucho texto afefffqfqfqfqfqftgrgrgr</h6>
+
+        <h6>Mucho texto afefffqfqfqfqfqftgrgrgr</h6>
+
 
     </div>
     <div class="divb">
