@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: 1fr;
-   gap: 2rem;
+   gap: 1rem;
    
    
    
@@ -20,10 +20,13 @@
     .b1{
 margin-top: 15px;
 height: 2rem;
+background-color: rgb(199, 199, 255);
     }
     .b2
     {margin-top: 15px;
-        height: 2rem;}
+        height: 2rem;
+        background-color: rgb(132, 118, 255);
+    }
     .iman{
 margin-top: 7px;
 margin-left: 5px;
@@ -31,15 +34,29 @@ margin-left: 5px;
         
     }
 
-    .Container {
+    .Container {    
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        background-color: bisque;
+        margin-left: 5rem;
+        margin-top: 1rem;
+        margin-right: 5rem;
+        gap: 1rem;
+        
+        
+       
         }
         
-        .diva { grid-area: 1 / 2 / 4 / 3; }
-        .divb { grid-area: 1 / 1 / 2 / 2; }
-        .divc { grid-area: 2 / 1 / 3 / 2; }
-        .divd { grid-area: 3 / 1 / 4 / 2; } 
+        .diva { grid-area: 1 / 3 / 2 / 5; }
+        .divb { grid-area: 2 / 3 / 3 / 5; }
+        .divc { grid-area: 3 / 3 / 4 / 4; }
+        .divd { grid-area: 3 / 4 / 4 / 5; }
+        .dive { grid-area: 1 / 5 / 4 / 7; }
+
+    .hh
+    {
+        
+       width: 31rem;
+       margin-top: 1rem;
+    }
