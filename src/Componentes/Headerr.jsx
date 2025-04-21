@@ -16,12 +16,18 @@ function Headerr() {
     <div class="divb">
       
     <form>
-    <input type="text" /><button>BUSCAR</button></form>
-      
-       </div>
-    <div class="divc"><button>Escuchar</button></div>
-    <div className="divd"><audio controls src={gg}></audio></div>
-    <div class="dive"><img className="hh" src={dogs} alt="dadad" /> </div>
+    <input type="text" /></form>
+    <div className="divc"><button>BUSCAR</button></div>
+    </div>
+
+    <div class="divd"><button className="bo1">Escuchar</button>
+
+    <div className="dive"><audio className="hola" controls src={gg}></audio></div>
+    </div>
+       
+    
+
+    <div class="divf"><img className="hh" src={dogs} alt="dadad" /> </div>
     </div>
 
 

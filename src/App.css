@@ -9,12 +9,19 @@
    
     }
     
-    .div1 { grid-area: 1 / 1 / 2 / 3; }
-    .div2 { grid-area: 1 / 3 / 2 / 4; }
-    .div3 { grid-area: 1 / 4 / 2 / 5; }
-    .div4 { grid-area: 1 / 5 / 2 / 6; }
-    .div5 { grid-area: 1 / 6 / 2 / 7; }
-    .div6 { grid-area: 1 / 7 / 2 / 8; }
+    .div1 {
+         grid-area: 1 / 1 / 2 / 3;
+     }
+    .div2 { 
+        grid-area: 1 / 3 / 2 / 4; }
+    .div3 { 
+        grid-area: 1 / 4 / 2 / 5; }
+    .div4 { 
+        grid-area: 1 / 5 / 2 / 6; }
+    .div5 { 
+        grid-area: 1 / 6 / 2 / 7; }
+    .div6 { 
+        grid-area: 1 / 7 / 2 / 8; }
     .div7 { grid-area: 1 / 8 / 2 / 10; 
         text-align: center;}  
     .b1{
@@ -36,29 +43,60 @@ margin-left: 5px;
 
     .Container {    
         display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         background-color: bisque;
-        margin-left: 5rem;
-        margin-top: 1rem;
-        margin-right: 5rem;
+        
+        
+        
+        
         gap: 1rem;
         
         
        
         }
         
-        .diva { grid-area: 1 / 3 / 2 / 5; }
-        .divb { grid-area: 2 / 3 / 3 / 5; }
-        .divc { grid-area: 3 / 3 / 4 / 4; 
-                margin-top: -12rem;}
-        .divd { grid-area: 3 / 4 / 4 / 5; 
-                margin-top: -12rem;}
-        .dive { grid-area: 1 / 5 / 4 / 7; }
+        .diva {  grid-area: 1 / 3 / 2 / 5; border: solid; }
+        .divb {  grid-area: 2 / 3 / 2 / 4; border: solid;
+            display: grid  ;
+        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr); 
+        }
+
+        .divc {   grid-area: 1 / 4 / 1 / 5;
+            
+            
+            }
+
+        .divd {  grid-area: 3 / 3 / 3 / 4;
+            display: grid  ;
+        
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            border: solid;   }
+
+        .dive { grid-area: 1 / 2 / 1 / 5;
+         
+         
+        }
+        .divf{
+            grid-area: 1 / 5 / 4 / 8;
+             border: solid;
+            }
+            
 
     .hh
     {
         
-       width: 31rem;
-       margin-top: 1rem;
+        width: 31rem;
+        margin-top: 1rem;
     }
+
+    .hola{
+        width: 5rem;;
+    }
+    .bo1{
+        height: 2rem;
+    }
+   
