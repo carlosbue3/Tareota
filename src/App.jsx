@@ -1,22 +1,25 @@
 
 import './App.css'
 import Menuu from './Componentes/Menuu'
-import Headerr from "./Componentes/Headerr"
+import Mainn from "./Componentes/Mainn"
 
 
 function App() {
   
 
   return (
-    <><div>
+    <>
+    <div>
       <Menuu></Menuu>
+    </div>
+    <div>
+    <Mainn></Mainn>
+    </div>
+    
 
-<div>
-  <Headerr></Headerr>
-</div>
+   
 
-
-      </div>
+      
     </>
   )
 }

@@ -1,6 +1,6 @@
 import dogs from "../assets/dogs.jpg"
 import gg from "../assets/gg.mp3"
-function Headerr() {
+function Cositas() {
   return (
     <div class="Container">
     <div class="diva"> 
@@ -14,16 +14,24 @@ function Headerr() {
 
     </div>
     <div class="divb">
-      
-    <form>
-    <input type="text" /></form>
-    <div className="divc"><button>BUSCAR</button></div>
-    </div>
-
-    <div class="divd"><button className="bo1">Escuchar</button>
-
+     <div className="naves">
+     <form>
+        <input type="text" />
+        
+      </form>
+      <button>BUSCAR</button>
+     </div>
+     
+        
+    <div class="divd">
+    <button className="bo1">Escuchar</button>
     <div className="dive"><audio className="hola" controls src={gg}></audio></div>
     </div>
+    </div>
+
+   
+   
+   
        
     
 
@@ -41,4 +49,4 @@ function Headerr() {
   );
 }
 
-export default Headerr;
+export default Cositas;
