@@ -3,86 +3,90 @@
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: 1fr;
-   gap: 1rem;
-   
-   
+    gap: 1rem;
    
     }
     
     .div1 {
-         grid-area: 1 / 1 / 2 / 3;
-     }
+        grid-area: 1 / 1 / 2 / 3;
+
+    }
+
     .div2 { 
-        grid-area: 1 / 3 / 2 / 4; }
+        grid-area: 1 / 3 / 2 / 4; 
+    }
+
     .div3 { 
-        grid-area: 1 / 4 / 2 / 5; }
+        grid-area: 1 / 4 / 2 / 5; 
+    }
+
     .div4 { 
-        grid-area: 1 / 5 / 2 / 6; }
+        grid-area: 1 / 5 / 2 / 6; 
+    }
+
     .div5 { 
-        grid-area: 1 / 6 / 2 / 7; }
+        grid-area: 1 / 6 / 2 / 7; 
+    }
+
     .div6 { 
-        grid-area: 1 / 7 / 2 / 8; }
-    .div7 { grid-area: 1 / 8 / 2 / 10; 
+        grid-area: 1 / 7 / 2 / 8; 
+    }
+
+    .div7 { 
+        grid-area: 1 / 8 / 2 / 10; 
         text-align: center;}  
     .b1{
-margin-top: 15px;
-height: 2rem;
-background-color: rgb(199, 199, 255);
+        margin-top: 15px;
+        height: 2rem;
+        background-color: rgb(199, 199, 255);
     }
     .b2
-    {margin-top: 15px;
+    {
+        margin-top: 15px;
         height: 2rem;
         background-color: rgb(132, 118, 255);
     }
     .iman{
-margin-top: 7px;
-margin-left: 5px;
-        height: 3rem;
-        
+        margin-top: 7px;
+        margin-left: 5px;
+        height: 3rem; 
     }
-
     .Container {    
         display: grid;
         grid-template-columns: repeat(9, 1fr);
         grid-template-rows: repeat(1, 1fr);
-       
-       
-        
-        
-        
-        
         gap: 1rem;
-        
-        
-       
         }
         
-        .diva {  grid-area: 1 / 3 / 2 / 5;}
-        .divb {  grid-area: 2 / 3 / 2 / 4;  
+    .diva {  
+        grid-area: 1 / 3 / 2 / 5;
+    }
+
+    .divb {  
+        grid-area: 2 / 3 / 2 / 4;  
           
+    }
+
+    .divc {   
+        grid-area: 1 / 4 / 1 / 5;
+            
+            
+    }
+    .divd {  
+        grid-area: 3 / 3 / 3 / 4;
+        display: grid  ;
+        margin: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         }
 
-        .divc {   grid-area: 1 / 4 / 1 / 5;
-            
-            
-            }
+    .dive { 
+        grid-area: 1 / 2 / 1 / 5;   
+    }
 
-        .divd {  grid-area: 3 / 3 / 3 / 4;
-            display: grid  ;
-            margin: 1rem;
-        
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            }
-
-        .dive { grid-area: 1 / 2 / 1 / 5;
-         
-         
-        }
-        .divf{
-            grid-area: 1 / 5 / 4 / 8;
-            }
-            
+    .divf{
+        grid-area: 1 / 5 / 4 / 8;
+    }
 
     .hh
     {
@@ -101,122 +105,125 @@ margin-left: 5px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 1rem;
-
     }
    
-
     .papa {
         display: grid;
         grid-template-columns: 1fr repeat(2, 2fr) 1fr;
         grid-column-gap: 6px;
-        
         text-align: center;
         width: 50%;
         margin: auto;
         }
         
-
-
-        .divun{
+    .divun{
             background-color: gray;
+    }
+
+    .divdo{
+        background-color: gray;
+    }
+
+    .divtre{
+        background-color: gray;
+    }
+
+    .divcua{
+        background-color: gray;
+    }
+
+    body{
             
-        }
-
-        .divdo{
-            background-color: gray;
-            }
-
-           .divtre{
-            background-color: gray;
-            }
-
-           .divcua{
-            background-color: gray;
-            }
-
-           body{
-            
-
-           }
+        background-color: rgb(111, 175, 248);
+    }
 
 
-           .Tio {
+    .Tio {
             display: grid;
             grid-template-columns: repeat(4, 3fr);
             grid-column-gap: 20px;
             width: 90%;
             margin: auto;
-            }
+    }
             
-            .div_1 {
-            background-color: rgb(227, 230, 233);
-        text-align: center;}
-            .div_2 {
-                background-color: rgb(227, 230, 233);
-                text-align: center;}
-            .div_3 {
-                background-color: rgb(227, 230, 233);
-                text-align: center;}
-            .div_4 {
-                background-color: rgb(227, 230, 233);
-                text-align: center;}
+    .div_1 {
+        background-color: rgb(227, 230, 233);
+        text-align: center;
+    }
 
-            .h11{
-                text-align: center;
+    
+
+    .h11{
+            text-align: center;
+        }
+
+
+
+    .Tio2 {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-column-gap: 20px;
+            margin: auto;
+            width: 100%;
+            text-align: center;
             }
 
-
-
-            .Tio2 {
-                display: grid;
-                grid-template-columns: repeat(6, 3fr);
-                grid-column-gap: 20px;
-
-                margin: auto;
-                width: 90%;
-                text-align: center;
-                }
-
-
-                .d1{background-color: aquamarine;}
-                .d2{background-color: aquamarine;}
-                .d3{background-color: aquamarine;}
-                .d4{background-color: aquamarine;}
-                .d5{background-color: aquamarine;}
-                .d6{background-color: aquamarine;}
+    .d1{
+            background-color: aquamarine;
+            }
+    
                 
-                .r{
-                
-                    margin-top: 10rem;
-                }
-
-
-                .T1 {
-                    display: grid;
-                    grid-template-columns: repeat(4, 3fr);
-                    grid-column-gap: 20px;
-                    width: 90%;
-                    margin: auto;
-                    }
+    .r{
+            
+            margin-top: 10rem;
+            }
                     
-                    .d_1 {
-                    background-color: rgb(227, 230, 233);
-                text-align: center;}
-                    .d_2 {
-                        background-color: rgb(227, 230, 233);
-                        text-align: center;}
-                    .d_3 {
-                        background-color: rgb(227, 230, 233);
-                        text-align: center;}
-                    .d_4 {
-                        background-color: rgb(227, 230, 233);
-                        text-align: center;}
+    .d_1 {
+            background-color: rgb(227, 230, 233);
+            text-align: center;
+        }
+    
+        
 
-                    .lt{
-                        margin-left: 6rem;
-                    }
+    .lt{
+        margin-left: 6rem;
+        }
 
 
-                    .ig{margin-top: 5px;
+    .ig{
+        margin-top: 5px;
 
-                    }
+        }
+    .mg{
+        width: 10rem;
+        margin-right: 10rem;
+        }
+    .medi{
+        margin: auto;
+        height: 20rem;
+        
+    }
+    .Inn{
+        background-color: rgb(250, 133, 133);
+        width: 35%;
+        margin: auto;
+        
+        
+    }
+    input{
+        width: 30%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .t{
+        text-align: center;
+        margin-top: 1rem;
+        
+        
+        }
+    .P{
+        background-color: rgb(115, 103, 243);
+        width: 35%;
+        margin: auto;
+        text-align: left;
+    }

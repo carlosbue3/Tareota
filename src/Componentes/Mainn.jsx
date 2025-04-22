@@ -2,6 +2,9 @@ import Cositas from "./Cositas";
 import Cositas2 from "./Cositas2";
 import Cositas3 from "./Cositas3";
 import Cositas4 from "./Cositas4";
+import Final from  "./Final";
+import Menuu from "./Menuu";
+
 
 
 function Mainn(){
@@ -9,6 +12,9 @@ return(
 
 
 <div>
+    <div>
+      <Menuu></Menuu>
+    </div>
     <div className="rosa">
     <Cositas></Cositas>
     </div>
@@ -27,6 +33,9 @@ return(
     <div>
         <Cositas4></Cositas4>
     </div>
+    <footer>
+        <Final></Final>
+    </footer>
 </div>
 )
 }
